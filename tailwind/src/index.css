@@ -19,6 +19,22 @@ code {
 .sidebar{
   width: 17%;
 }
-.search{
+.content{
   width: 83%;
+}
+.users{
+  width:265px;
+}
+.chat{
+  width: 750px;
+}
+
+.selected{
+  color: #109CF1  ;
+}
+.incoming{
+  background-color: #109CF1;
+  color: white;
+  border-radius: 2%;
+  padding: 20px;
 }

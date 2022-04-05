@@ -11,8 +11,8 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
     <><aside className='sidebar'>
         <div>
             <ul className='space-y-2'>
-                <li>
-                    <span className='text-2xl ml-3 text-blue-400'>SaaS Kit</span>
+                <li className='h-16 relative '>
+                    <span className='text-2xl ml-3 text-blue-400 absolute bottom-0 top-1/4	'>SaaS Kit</span>
                 </li>
                 <hr></hr>
                 <li>
@@ -31,72 +31,72 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
                     </div>
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='selected flex items-center p-2 text-sm font-bold'>
+                        <span className='ml-3'>
+                        {element}
+                        </span>
+                        <span className='ml-5'>
                         Dashboard
                         </span>
                     </a> 
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Tasks
                         </span>
                     </a> 
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Email
                         </span>
                     </a> 
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Contacts
                         </span>
                     </a> 
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Chat
                         </span>
                     </a> 
                 </li>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Deals
                         </span>
                     </a> 
                 </li>
                 <hr></hr>
                 <li>
-                    <a className='flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700'>
-                        <img src={faCoffee} >
-                        
-                        </img>
-                        <span className='ml-3'>{element}
+                    <a className='flex items-center p-2 text-base text-sm font-bold'>
+                        <span className='ml-3'>
+                            {element}
+                        </span>
+                        <span className='ml-5'>
                         Settings
                         </span>
                     </a> 
@@ -104,11 +104,7 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
             </ul>
         </div>
     </aside>
-    <header className='search'>
-        <div className="mt-1 relative rounded-md shadow-sm h-16 flex flex-row justify-between items-center px-8">
-            <input type="text" name="search" className="focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
-        </div>
-    </header></> 
+    </> 
     </div>
   );
 }

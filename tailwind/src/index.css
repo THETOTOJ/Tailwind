@@ -20,7 +20,7 @@ code {
   width: 17%;
 }
 .content{
-  width: 100%;
+  width: 85%;
 }
 .users{
   width:350px;
@@ -54,4 +54,12 @@ code {
 
 .first {
   width: 60%;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
 }

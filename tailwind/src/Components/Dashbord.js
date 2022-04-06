@@ -11,13 +11,14 @@ export default function Dashboard() {
                 <input type="text" name="search" class="focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
                 </div>
         </div>
-        <div class="first pl-10">
+        <div class="flex">
+        <div class="first ml-10 ">
         <div class=" flex flex-col  w-11/12 bg-white">
                         <div class="flex flex-row justify-between ml-10 mt-4">
                             <h4>8 task completed out of 10</h4>
                             <p>Show:  <a class="text-blue-400" href='#'>This Week</a></p>
                         </div>
-                        <div class="flex items-center  justify-center mt-3 ml-7">
+                        <div class="flex items-center  justify-center mt-3 ">
 
                             <div class="h-1 w-96 bg-lime-500 rounded" >
 
@@ -98,7 +99,7 @@ export default function Dashboard() {
 
                         </div>
                         <div>
-                            <div class="p-3  ml-9 mt-10 bg-white border-2">
+                            <div class="p-3  ml-9 mr-9 mt-10 bg-white border-2">
                                 <div class="flex justify-between">
                                     <h3>
                                         Send benefit review by Sunday
@@ -120,7 +121,7 @@ export default function Dashboard() {
                             </div>
 
 
-                            <div class="p-3  ml-9 mt-5 bg-white border-2">
+                            <div class="p-3  ml-9 mr-9 mt-5 bg-white border-2">
                                 <div class="flex justify-between">
                                     <h3>
                                         Send benefit review by Sunday
@@ -143,7 +144,7 @@ export default function Dashboard() {
                             </div>
 
 
-                            <div class="p-3  ml-9 mt-5 mb-3 bg-white border-2">
+                            <div class="p-3  ml-9 mr-9 mt-5 mb-3 bg-white border-2">
                                 <div>
                                     <div class="flex justify-between">
                                         <h3>
@@ -175,7 +176,14 @@ export default function Dashboard() {
         </div>
         
         <div class= 'second'>
+            <div class= 'w-32 h-24 green mb-10' >
 
+            </div>
+            <div class= 'w-14 h-14 red' >
+
+            </div>
+        
+        </div>
         </div>
         </div>
         </>

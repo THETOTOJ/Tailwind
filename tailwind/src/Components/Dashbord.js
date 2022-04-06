@@ -11,7 +11,8 @@ export default function Dashboard() {
                 <input type="text" name="search" class="focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
                 </div>
         </div>
-        <div class=" flex flex-col  w-11/12">
+        <div class="first pl-10">
+        <div class=" flex flex-col  w-11/12 bg-white">
                         <div class="flex flex-row justify-between ml-10 mt-4">
                             <h4>8 task completed out of 10</h4>
                             <p>Show:  <a class="text-blue-400" href='#'>This Week</a></p>
@@ -171,6 +172,8 @@ export default function Dashboard() {
                         </div>
 
         </div>
+        </div>
+        
         <div class= 'second'>
 
         </div>

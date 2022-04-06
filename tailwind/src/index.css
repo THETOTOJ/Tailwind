@@ -20,21 +20,34 @@ code {
   width: 17%;
 }
 .content{
-  width: 83%;
+  width: 100%;
 }
 .users{
-  width:265px;
+  width:350px;
+}
+.con{
+  width: 93%;
 }
 .chat{
-  width: 750px;
+  width: 950px;
 }
 
+.date{
+  font-size: 10px;
+}
 .selected{
   color: #109CF1  ;
+}
+.imaged{
+  border:solid;
+  border-color: #109CF1;
 }
 .incoming{
   background-color: #109CF1;
   color: white;
   border-radius: 2%;
   padding: 20px;
+}
+.background{
+  background-color: #E5E5E5;
 }

@@ -12,7 +12,7 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
         <div>
             <ul className='space-y-2'>
                 <li className='h-16 relative '>
-                    <span className='text-2xl ml-3 text-blue-400 absolute bottom-0 top-1/4	'>SaaS Kit</span>
+                    <span className='text-2xl ml-3 text-blue-400 absolute bottom-0 top-1/4	'>SaaS&nbsp;Kit</span>
                 </li>
                 <hr></hr>
                 <li>

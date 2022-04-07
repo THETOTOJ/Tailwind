@@ -5,16 +5,14 @@ import { faCommentAlt } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faBell} from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Sidebar() {
 const element = <FontAwesomeIcon icon={faEllipsis} />;
 const element2 = <FontAwesomeIcon icon={faCommentAlt} />;
 const element3 = <FontAwesomeIcon icon={faUser} />;
 const element4 = <FontAwesomeIcon icon={faEnvelope} />;
-const element5 = <FontAwesomeIcon icon={faBell} />;
-const element6 = <FontAwesomeIcon icon={faMagnifyingGlass} />;
+
 
   return (
     <div className='flex'>

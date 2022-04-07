@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCommentAlt } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBell} from '@fortawesome/free-solid-svg-icons'
 
 export default function Sidebar() {
-const element = <FontAwesomeIcon icon={faCoffee} />;
+const element = <FontAwesomeIcon icon={faEllipsis} />;
+const element2 = <FontAwesomeIcon icon={faCommentAlt} />;
+const element3 = <FontAwesomeIcon icon={faUser} />;
+const element4 = <FontAwesomeIcon icon={faEnvelope} />;
+const element5 = <FontAwesomeIcon icon={faBell} />;
+const element6 = <FontAwesomeIcon icon={faMagnifyingGlass} />;
 
   return (
     <div className='flex'>
@@ -52,9 +62,9 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
                 </li>
                 <li>
                     <a className='flex items-center p-2 text-base text-sm font-bold'>
-                        <span className='ml-3'>
-                            {element}
-                        </span>
+                    <span className='ml-3'>
+                            {element4}
+                   </span>
                         <span className='ml-5'>
                         Email
                         </span>
@@ -63,7 +73,7 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
                 <li>
                     <a className='flex items-center p-2 text-base text-sm font-bold'>
                         <span className='ml-3'>
-                            {element}
+                            {element3}
                         </span>
                         <span className='ml-5'>
                         Contacts
@@ -73,7 +83,7 @@ const element = <FontAwesomeIcon icon={faCoffee} />;
                 <li>
                     <a className='flex items-center p-2 text-base text-sm font-bold'>
                         <span className='ml-3'>
-                            {element}
+                            {element2}
                         </span>
                         <span className='ml-5'>
                         Chat

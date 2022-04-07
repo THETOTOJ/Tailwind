@@ -1,16 +1,23 @@
 import React from 'react';
 import Sidebar from '../Components/sidebar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBell} from '@fortawesome/free-solid-svg-icons'
 
 export default function Dashboard() {
+    const glass = <FontAwesomeIcon icon={faMagnifyingGlass} />;
+    const bell = <FontAwesomeIcon icon={faBell} />;
     return (
         <>
         <div class= 'content background'>
         <div class=' bg-gray-50 mb-10'>
-                <div class="mt-1 relative rounded-md shadow-sm h-16 flex flex-row justify-between items-center px-8">
-                <input type="text" name="search" class="focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
-                </div>
-        </div>
+            <div class="mt-1 relative rounded-md shadow-sm h-16 flex flex-row justify-between items-center px-8">
+            <span className="text-gray-300 text-base">{glass}</span>
+            <input type="text" name="search" class="mr-10 focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
+            <span className="text-gray-300 text-base">{bell}</span>
+            </div>
+    </div>
         <div class="flex">
         <div class="first ml-10 ">
         <div class=" flex flex-col  w-11/12 bg-white">
@@ -204,17 +211,17 @@ export default function Dashboard() {
             </div>
             </div>
 
-            <div class= 'h-20 bg-white mr-10' >
+            <div class= 'h-80 bg-white mr-10' >
             <div class="flex flex-row justify-between">
                 <h4>Tasks</h4>
                 <p>Show:  <a class="text-blue-400" href='#'>This Month</a></p>
             </div>
-            <div class='flex justify-between mr-10 ml-10 mt-10'>
+            <div class='flex justify-between mr-12 ml-20 mt-10'>
                 <div class="circle flex justify-center items-center"><p>60%</p></div>
                 <ul class='flex flex-col justify-between mt-6 mb-6'>
-                    <li>Active</li>
-                    <li>Completed</li>
-                    <li>Ended</li>
+                    <li> <span class="dot dot1 mr-3"></span>Active</li>
+                    <li><span class="dot dot2 mr-3"></span>Completed</li>
+                    <li><span class="dot dot3 mr-3"></span>Ended</li>
                 </ul>
             </div>
             </div>
